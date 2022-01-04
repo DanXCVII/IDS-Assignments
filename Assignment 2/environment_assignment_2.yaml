@@ -1,0 +1,25 @@
+name: IDS20212
+channels:
+  - plotly
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.21
+  - pandas=1.3
+  - scikit-learn=1.0
+  - matplotlib=3.5
+  - seaborn=0.11
+  - notebook=6.3
+  - ipywidgets=7.6
+  - nltk=3.5
+  - plotly=5.4
+  - cartopy=0.20
+  - gensim=4.0
+  - ipympl=0.8
+  - mlxtend=0.19
+  - nb_conda
+  - pip
+  - pip:
+    - pm4py==2.2.16
+    - p-decision-tree
