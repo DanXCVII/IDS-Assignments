@@ -1,2 +1,5 @@
 # ignore all datasets
 *.csv
+*.pkl
+*.png
+*.db
