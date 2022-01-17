@@ -1,0 +1,26 @@
+# run mapreduce for 10 datasets
+time hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar \
+-files /usr/local/hadoop/q6_code/map3.py,/usr/local/hadoop/q6_code/reduce3.py \
+-mapper "python map3.py" \
+-reducer "python reduce3.py" \
+-input /input/DFL-final-log-10.tsv \
+-output /output/Q6RES-performance
+
+# run mapreduce for 6 datasets
+time hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar \
+-files /usr/local/hadoop/q6_code/map3.py,/usr/local/hadoop/q6_code/reduce3.py \
+-mapper "python map3.py" \
+-reducer "python reduce3.py" \
+-input /input/DFL-final-log-6.tsv \
+-output /output/Q6RES-performance-6
+
+# run mapreduce for 2 datasets
+time hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar \
+-files /usr/local/hadoop/q6_code/map3.py,/usr/local/hadoop/q6_code/reduce3.py \
+-mapper "python map3.py" \
+-reducer "python reduce3.py" \
+-input /input/DFL-final-log-2.tsv \
+-output /output/Q6RES-performance-2
+
+# copy results from HDFS to docker container
+hadoop fs -copyToLocal /output/Q6RES-performance/part-00000 /usr/local/hadoop/output/q6res-performance.txt

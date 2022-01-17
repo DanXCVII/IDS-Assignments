@@ -1,0 +1,18 @@
+# run mapreduce 1
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar \
+-files /usr/local/hadoop/q6_code/map1.py,/usr/local/hadoop/q6_code/reduce1.py \
+-mapper "python map1.py" \
+-reducer "python reduce1.py" \
+-input /input/DFL-final-log-10.tsv \
+-output /output/Q6RES
+
+# run mapreduce 2
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.1.jar \
+-files /usr/local/hadoop/q6_code/map2.py,/usr/local/hadoop/q6_code/reduce2.py \
+-mapper "python map2.py" \
+-reducer "python reduce2.py" \
+-input /output/Q6RES/part-00000 \
+-output /output/Q6RES-final
+
+# copy results from HDFS to docker container
+hadoop fs -copyToLocal /output/Q6RES-final/part-00000 /usr/local/hadoop/output/q6res-final.txt

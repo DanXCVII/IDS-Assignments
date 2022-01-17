@@ -1,0 +1,260 @@
+A_Accepted,O_Create Offer	308309
+A_Accepted,O_Created	5991
+A_Accepted,W_Assess potential fraud	40
+A_Accepted,W_Complete application	700
+A_Accepted,W_Shortened completion	50
+A_Cancelled,O_Cancelled	89432
+A_Complete,A_Cancelled	59557
+A_Complete,A_Denied	669
+A_Complete,A_Validating	3647
+A_Complete,O_Cancelled	15917
+A_Complete,O_Create Offer	36225
+A_Complete,O_Created	897
+A_Complete,O_Refused	155
+A_Complete,O_Sent (mail and online)	31438
+A_Complete,O_Sent (online only)	480
+A_Complete,W_Assess potential fraud	141
+A_Complete,W_Call after offers	3184
+A_Complete,W_Shortened completion	295
+A_Complete,W_Validate application	160736
+A_Concept,A_Accepted	120670
+A_Concept,A_Create Application	12832
+A_Concept,W_Assess potential fraud	67
+A_Concept,W_Complete application	181357
+A_Concept,W_Shortened completion	164
+A_Create Application,A_Accepted	1391
+A_Create Application,A_Concept	54421
+A_Create Application,A_Submitted	185100
+A_Create Application,W_Assess potential fraud	20
+A_Create Application,W_Complete application	70092
+A_Create Application,W_Handle leads	4066
+A_Denied,O_Refused	33371
+A_Incomplete,A_Cancelled	5507
+A_Incomplete,A_Denied	1389
+A_Incomplete,A_Incomplete	3
+A_Incomplete,A_Pending	5582
+A_Incomplete,A_Validating	15155
+A_Incomplete,O_Accepted	35036
+A_Incomplete,O_Cancelled	3390
+A_Incomplete,O_Create Offer	14601
+A_Incomplete,O_Created	231
+A_Incomplete,O_Refused	254
+A_Incomplete,O_Returned	10094
+A_Incomplete,O_Sent (mail and online)	34
+A_Incomplete,O_Sent (online only)	54
+A_Incomplete,W_Assess potential fraud	83
+A_Incomplete,W_Call after offers	43
+A_Incomplete,W_Call incomplete files	28345
+A_Incomplete,W_Validate application	110493
+A_Pending,O_Accepted	22328
+A_Pending,O_Cancelled	36146
+A_Pending,W_Personal Loan collection	10
+A_Submitted,A_Concept	152060
+A_Submitted,A_Create Application	19130
+A_Submitted,W_Assess potential fraud	173
+A_Submitted,W_Complete application	693
+A_Submitted,W_Handle leads	32174
+A_Validating,A_Cancelled	262
+A_Validating,A_Denied	8261
+A_Validating,A_Incomplete	8496
+A_Validating,A_Pending	6782
+A_Validating,A_Validating	2
+A_Validating,O_Accepted	53297
+A_Validating,O_Cancelled	2329
+A_Validating,O_Create Offer	441
+A_Validating,O_Created	3
+A_Validating,O_Refused	1191
+A_Validating,O_Returned	209774
+A_Validating,O_Sent (online only)	6
+A_Validating,W_Assess potential fraud	621
+A_Validating,W_Call incomplete files	70398
+A_Validating,W_Validate application	26269
+O_Accepted,A_Pending	149758
+O_Accepted,O_Cancelled	5208
+O_Cancelled,A_Cancelled	20546
+O_Cancelled,A_Complete	196
+O_Cancelled,A_Denied	320
+O_Cancelled,A_Incomplete	8
+O_Cancelled,A_Pending	138
+O_Cancelled,A_Validating	91
+O_Cancelled,O_Accepted	5239
+O_Cancelled,O_Cancelled	37405
+O_Cancelled,O_Create Offer	7388
+O_Cancelled,O_Created	142
+O_Cancelled,O_Returned	50
+O_Cancelled,O_Sent (mail and online)	2978
+O_Cancelled,O_Sent (online only)	109
+O_Cancelled,W_Assess potential fraud	20
+O_Cancelled,W_Call after offers	207
+O_Cancelled,W_Call incomplete files	112
+O_Cancelled,W_Complete application	30
+O_Cancelled,W_Shortened completion	10
+O_Cancelled,W_Validate application	3379
+O_Create Offer,A_Cancelled	23
+O_Create Offer,A_Complete	107
+O_Create Offer,A_Denied	3
+O_Create Offer,O_Cancelled	140
+O_Create Offer,O_Create Offer	792
+O_Create Offer,O_Created	421408
+O_Create Offer,O_Refused	4
+O_Create Offer,O_Sent (mail and online)	6298
+O_Create Offer,O_Sent (online only)	372
+O_Create Offer,W_Call after offers	767
+O_Create Offer,W_Call incomplete files	2
+O_Create Offer,W_Complete application	10
+O_Create Offer,W_Validate application	14
+O_Created,A_Cancelled	975
+O_Created,A_Complete	30534
+O_Created,A_Denied	210
+O_Created,A_Incomplete	10
+O_Created,A_Validating	8
+O_Created,O_Cancelled	7572
+O_Created,O_Create Offer	45941
+O_Created,O_Created	909
+O_Created,O_Refused	33
+O_Created,O_Sent (mail and online)	292439
+O_Created,O_Sent (online only)	17873
+O_Created,W_Call after offers	32660
+O_Created,W_Call incomplete files	78
+O_Created,W_Complete application	350
+O_Created,W_Shortened completion	20
+O_Created,W_Validate application	338
+O_Refused,A_Denied	5409
+O_Refused,O_Refused	8180
+O_Returned,A_Cancelled	609
+O_Returned,A_Denied	18117
+O_Returned,A_Incomplete	17007
+O_Returned,A_Pending	6813
+O_Returned,A_Validating	1533
+O_Returned,O_Accepted	44193
+O_Returned,O_Cancelled	1495
+O_Returned,O_Create Offer	976
+O_Returned,O_Created	24
+O_Returned,O_Refused	3123
+O_Returned,O_Returned	650
+O_Returned,W_Assess potential fraud	1660
+O_Returned,W_Call incomplete files	121293
+O_Returned,W_Validate application	15537
+O_Sent (mail and online),A_Cancelled	8438
+O_Sent (mail and online),A_Complete	34028
+O_Sent (mail and online),A_Denied	124
+O_Sent (mail and online),A_Incomplete	65
+O_Sent (mail and online),A_Pending	3
+O_Sent (mail and online),A_Validating	1036
+O_Sent (mail and online),O_Accepted	34
+O_Sent (mail and online),O_Cancelled	6044
+O_Sent (mail and online),O_Create Offer	6853
+O_Sent (mail and online),O_Created	82
+O_Sent (mail and online),O_Refused	28
+O_Sent (mail and online),O_Returned	2500
+O_Sent (mail and online),O_Sent (mail and online)	30899
+O_Sent (mail and online),O_Sent (online only)	10
+O_Sent (mail and online),W_Assess potential fraud	11
+O_Sent (mail and online),W_Call after offers	273697
+O_Sent (mail and online),W_Call incomplete files	355
+O_Sent (mail and online),W_Validate application	32663
+O_Sent (online only),A_Cancelled	1046
+O_Sent (online only),A_Complete	505
+O_Sent (online only),A_Denied	39
+O_Sent (online only),A_Incomplete	30
+O_Sent (online only),A_Pending	8
+O_Sent (online only),A_Validating	702
+O_Sent (online only),O_Accepted	59
+O_Sent (online only),O_Cancelled	614
+O_Sent (online only),O_Create Offer	1518
+O_Sent (online only),O_Created	24
+O_Sent (online only),O_Refused	11
+O_Sent (online only),O_Returned	2700
+O_Sent (online only),O_Sent (mail and online)	10
+O_Sent (online only),O_Sent (online only)	848
+O_Sent (online only),W_Call after offers	4001
+O_Sent (online only),W_Call incomplete files	240
+O_Sent (online only),W_Validate application	7785
+W_Assess potential fraud,A_Denied	891
+W_Assess potential fraud,O_Refused	129
+W_Assess potential fraud,W_Assess potential fraud	440
+W_Assess potential fraud,W_Call after offers	120
+W_Assess potential fraud,W_Complete application	120
+W_Assess potential fraud,W_Handle leads	190
+W_Assess potential fraud,W_Validate application	1660
+W_Call after offers,A_Cancelled	6463
+W_Call after offers,A_Complete	248226
+W_Call after offers,A_Denied	97
+W_Call after offers,A_Validating	543
+W_Call after offers,O_Accepted	20
+W_Call after offers,O_Cancelled	2767
+W_Call after offers,O_Create Offer	3852
+W_Call after offers,O_Created	159
+W_Call after offers,O_Refused	27
+W_Call after offers,O_Returned	10
+W_Call after offers,O_Sent (mail and online)	32747
+W_Call after offers,O_Sent (online only)	488
+W_Call after offers,W_Assess potential fraud	28
+W_Call after offers,W_Call after offers	129
+W_Call after offers,W_Shortened completion	35
+W_Call after offers,W_Validate application	19218
+W_Call incomplete files,A_Cancelled	703
+W_Call incomplete files,A_Denied	184
+W_Call incomplete files,A_Incomplete	203446
+W_Call incomplete files,A_Pending	1251
+W_Call incomplete files,A_Validating	2066
+W_Call incomplete files,O_Accepted	4302
+W_Call incomplete files,O_Cancelled	369
+W_Call incomplete files,O_Create Offer	2152
+W_Call incomplete files,O_Created	66
+W_Call incomplete files,O_Refused	43
+W_Call incomplete files,O_Returned	1616
+W_Call incomplete files,O_Sent (mail and online)	6
+W_Call incomplete files,O_Sent (online only)	6
+W_Call incomplete files,W_Assess potential fraud	17
+W_Call incomplete files,W_Call after offers	7
+W_Call incomplete files,W_Call incomplete files	336
+W_Call incomplete files,W_Validate application	15576
+W_Complete application,A_Accepted	192719
+W_Complete application,A_Cancelled	46
+W_Complete application,A_Complete	20
+W_Complete application,A_Concept	89506
+W_Complete application,A_Create Application	13741
+W_Complete application,A_Denied	9
+W_Complete application,O_Cancelled	64
+W_Complete application,O_Create Offer	747
+W_Complete application,O_Created	13
+W_Complete application,O_Refused	1
+W_Complete application,O_Sent (mail and online)	195
+W_Complete application,O_Sent (online only)	10
+W_Complete application,W_Assess potential fraud	10
+W_Complete application,W_Call after offers	25
+W_Complete application,W_Complete application	1908
+W_Complete application,W_Shortened completion	166
+W_Handle leads,A_Concept	6802
+W_Handle leads,W_Complete application	29628
+W_Handle leads,W_Handle leads	840
+W_Personal Loan collection,A_Denied	9
+W_Personal Loan collection,O_Refused	1
+W_Personal Loan collection,W_Personal Loan collection	20
+W_Shortened completion,A_Accepted	310
+W_Shortened completion,A_Cancelled	102
+W_Shortened completion,A_Complete	4
+W_Shortened completion,A_Validating	2
+W_Shortened completion,O_Cancelled	18
+W_Shortened completion,O_Create Offer	80
+W_Shortened completion,O_Sent (mail and online)	16
+W_Shortened completion,W_Complete application	20
+W_Shortened completion,W_Shortened completion	20
+W_Shortened completion,W_Validate application	178
+W_Validate application,A_Cancelled	33
+W_Validate application,A_Denied	1799
+W_Validate application,A_Incomplete	1485
+W_Validate application,A_Pending	1935
+W_Validate application,A_Validating	363375
+W_Validate application,O_Accepted	7772
+W_Validate application,O_Cancelled	70
+W_Validate application,O_Create Offer	65
+W_Validate application,O_Created	1
+W_Validate application,O_Refused	399
+W_Validate application,O_Returned	5656
+W_Validate application,O_Sent (online only)	4
+W_Validate application,W_Assess potential fraud	219
+W_Validate application,W_Call incomplete files	11021
+W_Validate application,W_Personal Loan collection	10
+W_Validate application,W_Validate application	594
